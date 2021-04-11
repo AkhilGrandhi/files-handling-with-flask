@@ -25,6 +25,7 @@ virtualenv venv
 Step 3 : 
 
 .\venv\Scripts\activate
+
 Then your virtual environment will be activated
  
 Step 4 : 
