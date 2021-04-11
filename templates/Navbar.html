@@ -41,22 +41,23 @@
 
 <!--End of Navbar -->    
     
-              
-
-
-
-
-
-
 
         <div class="container-fluid">
           <h3>Enter File Name with <b>Extension</b>, Starting and Ending Line number in URL with ' / ' separated : </h3>
+          <br>
+          {{message}}
+          {{errors}}
           <br><br>
           {% block content %}
 
-            <p>{% for line in data %}
+            <p>
+
+              {% for line in data %}
+
                 {{ line }}
+
               <br>
+
                {% endfor %}
 
             </p>
