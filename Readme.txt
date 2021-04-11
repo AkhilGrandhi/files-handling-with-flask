@@ -3,7 +3,7 @@ Enter your file name with extension (from file1.txt, file2.txt, file3.txt, file4
 Enter Strating and Ending lines of a file (Optional)
 Note : Give Input in the URL
 
-Example : http://127.0.0.1:5000/file1/10/20
+Example : http://127.0.0.1:5000/file1.txt/10/20
 
 It will print data in file1 from 10 to 20 lines.
 
