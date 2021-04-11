@@ -21,8 +21,9 @@ def home(file="Readme.txt",first=0,last=-1):
         
 		return render_template("Navbar.html",data=data_file[first:last+1])
     #Exception Handling
-	except (FileNotFoundError,TypeError,ValueError):
-		return "Error Raised You  Passed Wrong Arguments Check Your Arguments Once"
+	except (FileNotFoundError,TypeError,ValueError) as error:
+		mess= "Error Raised You  Passed Wrong Arguments Check Your Arguments Once"
+		return render_template("Navbar.html", message=mess, errors=error)
     
 	
 
